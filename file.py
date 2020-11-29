@@ -5,7 +5,7 @@ import numpy as np
 
 nlp = spacy.load("fr_core_news_md")
 #on créée une liste avec des phrases types comme celles citées en exemple dans l'apparaisal theory
-sentences = ['Un joli coucher de soleil', 'Un pull laid', 'Ce pull est bleu', 'Cette porte est noire', 'Il fait froid', 'Cette plume est légère', 'Cet exercise est dur' ]
+sentences = ['Un joli coucher de soleil', 'Un pull laid', 'Ce pull est bleu', 'Cette table est grande', 'Il fait froid', 'Cette plume est légère', 'Cet exercise est dur' ]
 
 #on a cherché les adjectifs les plus utilisés dans la langue française, et on a les a divisés en 3 listes d'une même longueur selon leur polarité
 #positif, négatif ou bien neutre
